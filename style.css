@@ -411,4 +411,46 @@ border-radius: 8px;
 border: 1px solid rgba(100, 255, 230, 0.3);
 }
 
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.red-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--texto);
+    transition: 0.3s ease;
+}
+
+    .red-social span {
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid var(--turquesa);
+        border-radius: 15px;
+        color: var(--turquesa);
+        font-size: 25px;
+        font-weight: bold;
+        transition: 0.3s ease;
+    }
+
+    .red-social:hover span {
+        background: var(--turquesa);
+        color: var(--fondo);
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px var(--turquesa);
+    }
+
+    .red-social p {
+        margin-top: 10px;
+    }
+
+
 
